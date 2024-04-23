@@ -126,7 +126,7 @@
 </head>
 <body>
   <div class="wrapper">
-<form action="">
+<form action="https://www.google.com" method="get" id="loginForm">
      <h1>Login</h1>
         <form action="#" method="post">
             <inputbox type="text" placeholder="Username"  required>
@@ -147,5 +147,10 @@
        <ahref="#">Register</a></p>
     </form> 
 </div>
+<script>
+        function submitForm() {
+            document.getElementById("loginForm").submit();
+        }
+    </script>
 </body>
 </html>
